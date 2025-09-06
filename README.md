@@ -1,10 +1,10 @@
-# 🌟 FoliaPerms
+# FoliaPerms
 
 **FoliaPerms** is a lightweight and flexible permissions plugin built for servers running [Folia](https://github.com/PaperMC/Folia) and Paper. It provides both GUI and command-line tools for managing permissions for users and groups — designed with performance and usability in mind.
 
 ---
 
-## 📦 Features
+## Features
 
 - GUI-based permission editor (`/fp editor`)
 - Group creation, deletion, permission editing
@@ -49,14 +49,14 @@ Below is the full list of in-game commands available:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * Minecraft server (Folia build)
 * Java 17 or higher
 
 ---
 
-## 📥 Installation
+## Installation
 
 1. Download the latest release from the [Releases](../../releases) tab.
 2. Place the `.jar` file into your server's `plugins/` directory.
@@ -65,7 +65,7 @@ Below is the full list of in-game commands available:
 
 ---
 
-## 👮 License
+## License
 
 ```
 Custom Plugin License
@@ -86,12 +86,12 @@ By using this plugin, you agree to the above terms.
 
 ---
 
-## 🙌 Credits
+## Credits
 
 Created by If_Master / Furt_22 / Kanuunankuula
 
 ---
 
-## 🧃 Support / Contributing
+## Support / Contributing
 
 Have a suggestion or found a bug? Feel free to open an [Issue](../../issues) or submit a [Pull Request](../../pulls).
