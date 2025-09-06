@@ -1,6 +1,6 @@
 # FoliaPerms
 
-**FoliaPerms** is a lightweight and flexible permissions plugin built for servers running [Folia](https://github.com/PaperMC/Folia) and Paper. It provides both GUI and command-line tools for managing permissions for users and groups — designed with performance and usability in mind.
+**FoliaPerms** is a lightweight and flexible permissions plugin built for servers running [Folia](https://github.com/PaperMC/Folia) and Paper. It provides both GUI and command-line tools for managing permissions for users and groups, designed with performance and usability in mind.
 
 ---
 
