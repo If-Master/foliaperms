@@ -1,19 +1,18 @@
-````
 # 🌟 FoliaPerms
 
-**FoliaPerms** is a lightweight and flexible permissions plugin built for servers running [Folia](https://github.com/PaperMC/Folia). It provides both GUI and command-line tools for managing permissions for users and groups — designed with performance and usability in mind.
+**FoliaPerms** is a lightweight and flexible permissions plugin built for servers running [Folia](https://github.com/PaperMC/Folia) and Paper. It provides both GUI and command-line tools for managing permissions for users and groups — designed with performance and usability in mind.
 
 ---
 
 ## 📦 Features
 
-- ✅ GUI-based permission editor (`/fp editor`)
-- ✅ Group creation, deletion, permission editing
-- ✅ User-specific permission and group assignment
-- ✅ Group priorities and detailed info commands
-- ✅ Built-in debugging and performance tools
-- ✅ Auto-update support
-- ✅ Admin-only save and reload commands
+- GUI-based permission editor (`/fp editor`)
+- Group creation, deletion, permission editing
+- User-specific permission and group assignment
+- Group priorities and detailed info commands
+- Built-in debugging and performance tools
+- Auto-update support
+- Admin-only save and reload commands
 
 ---
 
