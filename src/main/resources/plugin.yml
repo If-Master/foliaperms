@@ -1,0 +1,63 @@
+name: FoliaPerms
+version: '1.0.1'
+main: me.IfMasterPluginsPerms.foliaPerms.FoliaPerms
+api-version: '1.21'
+authors: [ Kanuunankuula (IF_Master) ]
+description: A simple permission management plugin for Folia
+folia-supported: true
+
+
+commands:
+  fp:
+    description: Main FoliaPerms command
+    usage: /fp <subcommand>
+
+permissions:
+  foliaperm.use:
+    description: The ability to use the Foliaperms.
+    default: op
+  foliaperm.user:
+    description: Ability to change permissions on a users.
+    default: op
+  foliaperm.group:
+    description: Ability to change the permissions in groups
+    default: op
+  foliaperm.admin:
+    description: Ability to save, reload, use, editor, debug. Basicily foliaperms.* but without ver, Stats
+    default: op
+    children:
+      foliaperm.use: true
+      foliaperm.user: true
+      foliaperm.group: true
+      foliaperm.debug: true
+      foliaperm.editor: true
+      foliaperm.warn: true
+
+  foliaperm.debug:
+    description: Ability to view the debug information
+    default: op
+  foliaperm.editor:
+    description: Ability to open up the editor
+    default: op
+  foliaperm.ver:
+    description: Ability to view the version data
+    default: op
+  foliaperms.stats:
+    description: Ability to view stats
+    default: op
+  foliaperm.warn:
+    description: See Unauthorized messages
+    default: op
+
+  foliaperm.*:
+    description: Every permission in one
+    default: op
+    children:
+      foliaperm.use: true
+      foliaperm.user: true
+      foliaperm.group: true
+      foliaperm.debug: true
+      foliaperm.editor: true
+      foliaperm.ver: true
+      foliaperms.stats: true
+      foliaperm.warn: true
