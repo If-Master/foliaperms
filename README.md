@@ -51,7 +51,7 @@ Below is the full list of in-game commands available:
 
 ## Requirements
 
-* Minecraft server (Folia build)
+* Minecraft server (Folia build or Paper build)
 * Java 17 or higher
 
 ---
